@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validateForm() {
+          let x = document.forms["myForm"]["firstname"].value;
+          if (x == "") {
+            alert("Form must be filled out");
+            return false;
+          }
+        }
+        </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+h1{font-size: 20px;text-align: center;}
+    h2{text-align: center;margin-bottom: 50px;}
+    h3{text-align: center;}
+    p{font-weight: 100;font-size: 15px;text-align: center;}
+img{
+    width: 100px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+span{text-align: center;}
+</style>
+</head>
+<body>
+    <div class="center">
+<img src="/200 KB Pic.jpg">
+</div>
+<h1>Julee Pradhan</h1>
+<p>Mob: +917077612025<br>
+   Email: 2018hw86662@wilp.bits-pilani.ac.in
+    </p><br><br>
+    <span style="font-weight: 700;">Career Profile and Experience Summary:</span><br>
+    <span style="font-weight: 400;">IT Professional with over 2.5 years of experience in one of the leading MNC, specializing in Infrastructure services with good understanding and hands-on in ITIL framework. I have work with multiple UK and US based International customers and projects.</span>
+    <br><br>
+    <span style="font-weight: 700;">Skill Set:</span><br>
+    <span style="font-weight: 400;">1. A strong team player.<br>
+        2. The ability to identify and progress initiatives which enhance continuous service improvement within the Global Problem Management team.<br>
+        3. Experience of managing highly complex problem investigations.<br>
+        4. Clear understanding of the importance of data quality.<br>
+        5. Results driven and self motivated<br>
+        6. Working as part of a Global Team<br>
+        7. Analytical and logical
+        </span>
+        <br><br>
+
+        <span style="font-weight: 700;">Technical Skill/Trained:</span><br>
+        <span style="font-weight: 400;">Wintel/ Active Directory Unix/Linux<br>
+            Networking<br>
+            ITIL
+            
+            </span>
+            <br>
+            <br>
+            <span style="font-weight: 700;">Tools Experience:</span><br>
+        <span style="font-weight: 400;">ITSM Tool - ServiceNow<br>
+            Microsoft Excel Power BI<br>
+            Outlook<br>
+            Microsoft Word
+            </span>
+            <br>
+            <br>
+            <span style="font-weight: 700;">Roles and Responsibility:</span><br>
+            <h5>Role as an Incident Manager:</h5>
+    <span style="font-weight: 400;">Ensure that activities within a process are being performed at a high level of quality and that it meets its associated Service Level Agreements or Operational Level Agreements.
+        Responsible for assigning incidents within a group or division Responsible for communicating with the process manager.
+         Directly works with Tier 1 Support to ensure proper recording of incidents Determine if an incident needs to be escalated according to priority and severity of the issue. 
+        Ensure that Incidents assigned to their Support Groups are resolved and that service is restored.
+        Monitor the Incidents and manage workload in their respective queues to ensure that Service Level Agreement and Operational Level Agreement are respected. 
+        Identify potential problems and/or increasing trend of repetitive Incidents Create Knowledge with repeatable procedures with a goal of reducing the number of Incidents.
+        </span>
+    <br><br>
+    <h5>Role as a Problem Manager:</h5>
+    <span style="font-weight: 400;">Identifying problems that cause incidents and lengthen time to repair, and attacking the issues to eliminate the cause in our environment.
+        Track Problem governance metrics and continuously seek to improve the Problem management KPls (daily/ weekly/ monthly basis) e.g.: Problems open, closed, problems with no Post mortems done, Problems with no tasks, Problems ready for closure etc. 
+        Ensure to submit RCA of the Problem with CAPA (Corrective & Preventive Action) and Root Cause (5 Why Analysis) within SLA.        
+        </span>
+        <br><br>
+
+        <span style="font-weight: 700;">Academic and Educational Summary:</span><br>
+        <span style="font-weight: 400;">Mtech in Computer science - Bits Pilani University<br>
+            Bachelor of Science-  Gangadhar Meher University, Sambalpur<br>
+            Class 12th from CHSC- AIMS College of +2 Science, Sambalpur<br>
+            Class 10th from HSE- Saraswati Shishu Vidya Mandir, Jharsuguda<br>
+            </span>
+            <br><br>
+
+            <span style="font-weight: 700;">Personal Information:</span><br>
+        <span style="font-weight: 400;">Father's Name- Kantaram Pradhan<br>
+            Mother's Name- Tulshi Pradhan<br>
+            Date of birth- 17 July 1997<br>
+            Permanent Address- At- Sapada, PO- Badmal, Dist. Jharsuguda, Odisha<br>
+            Marital status- Unmarried<br>
+            Nationality- Indian<br>
+            Language known- English, Hindi, Odia
+            
+            </span>
+            <br><br>
+            <br>
+
+
+    
+
+            
+<h3>Contact Form</h3>
+
+<div class="container">
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Email id..">
+    
+            <label for="lname">Address</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Address..">
+
+
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
